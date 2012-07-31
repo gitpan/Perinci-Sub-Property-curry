@@ -1,0 +1,32 @@
+NAME
+    Perinci::Sub::property::curry - Set arguments for function
+
+VERSION
+    version 0.01
+
+SYNOPSIS
+     # in function metadata
+     args  => {a=>{}, b=>{}, c=>{}},
+     curry => {a=>10},
+
+     # when calling function
+     f();             # equivalent to f(a=>10)
+     f(b=>20, c=>30); # equivalent to f(a=>10, b=>20, c=>30)
+     f(a=>5, b=>20);  # error, a has been set by curry
+
+DESCRIPTION
+    This property sets arguments for function.
+
+SEE ALSO
+    Perinci
+
+FUNCTIONS
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2012 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
