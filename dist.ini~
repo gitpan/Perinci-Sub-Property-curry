@@ -1,13 +1,13 @@
-version=0.01
+version=0.02
 
-name=Perinci-Sub-property-curry
+name=Perinci-Sub-Property-curry
 author=Steven Haryanto <stevenharyanto@gmail.com>
 license=Perl_5
 copyright_holder=Steven Haryanto
 
 [MetaResources]
-homepage=http://metacpan.org/dist/Perinci-Sub-property-curry
-repository=http://github.com/sharyanto/perl-Perinci-Sub-property-curry
+homepage=http://metacpan.org/dist/Perinci-Sub-Property-curry
+repository=http://github.com/sharyanto/perl-Perinci-Sub-Property-curry
 
 [@SHARYANTO]
 

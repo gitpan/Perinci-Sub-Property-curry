@@ -1,8 +1,8 @@
 NAME
-    Perinci::Sub::property::curry - Set arguments for function
+    Perinci::Sub::Property::curry - Set arguments for function
 
 VERSION
-    version 0.02
+    version 0.03
 
 SYNOPSIS
      # in function metadata

@@ -7,6 +7,7 @@ use warnings;
 use Perinci::Sub::Wrapper qw(wrap_sub);
 use Test::More 0.96;
 use Test::Perinci::Sub::Wrapper qw(test_wrap);
+use Perinci::Sub::property::curry;
 
 my ($sub, $meta);
 

@@ -7,7 +7,7 @@ use warnings;
 
 use Perinci::Util qw(declare_property);
 
-our $VERSION = '0.02'; # VERSION
+# VERSION
 
 declare_property(
     name => 'curry',
@@ -40,18 +40,6 @@ declare_property(
 1;
 # ABSTRACT: Set arguments for function
 
-
-__END__
-=pod
-
-=head1 NAME
-
-Perinci::Sub::property::curry - Set arguments for function
-
-=head1 VERSION
-
-version 0.02
-
 =head1 SYNOPSIS
 
  # in function metadata
@@ -63,34 +51,14 @@ version 0.02
  f(b=>20, c=>30); # equivalent to f(a=>10, b=>20, c=>30)
  f(a=>5, b=>20);  # error, a has been set by curry
 
+
 =head1 DESCRIPTION
 
 This property sets arguments for function.
+
 
 =head1 SEE ALSO
 
 L<Perinci>
 
-=head1 DESCRIPTION
-
-
-This module has L<Rinci> metadata.
-
-=head1 FUNCTIONS
-
-
-None are exported by default, but they are exportable.
-
-=head1 AUTHOR
-
-Steven Haryanto <stevenharyanto@gmail.com>
-
-=head1 COPYRIGHT AND LICENSE
-
-This software is copyright (c) 2012 by Steven Haryanto.
-
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
-
 =cut
-
