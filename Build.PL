@@ -20,13 +20,13 @@ my %module_build_args = (
     "Steven Haryanto <stevenharyanto\@gmail.com>"
   ],
   "dist_name" => "Perinci-Sub-Property-curry",
-  "dist_version" => "0.03",
+  "dist_version" => "0.04",
   "license" => "perl",
   "module_name" => "Perinci::Sub::Property::curry",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
-    "Perinci::Util" => 0,
+    "Perinci::Sub::PropertyUtil" => 0,
     "perl" => "5.010000"
   },
   "script_files" => []

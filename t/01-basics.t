@@ -10,7 +10,13 @@ use Test::Perinci::Sub::Wrapper qw(test_wrap);
 
 my ($sub, $meta);
 
-$sub = sub {[200,"OK",{@_}]};
+$sub = sub {
+    my %args = @_;
+    for (keys %args) {
+        delete $args{$_} if /^-/; # strip special arguments
+    }
+    [200,"OK",\%args];
+};
 $meta = {v=>1.1, args=>{a=>{}, b=>{}, c=>{}}, curry=>{a=>10}};
 test_wrap(
     name        => 'a is curried #1',

@@ -5,9 +5,9 @@ use strict;
 use warnings;
 #use Log::Any '$log';
 
-use Perinci::Util qw(declare_property);
+use Perinci::Sub::PropertyUtil qw(declare_property);
 
-our $VERSION = '0.03'; # VERSION
+our $VERSION = '0.04'; # VERSION
 
 declare_property(
     name => 'curry',
@@ -50,7 +50,7 @@ Perinci::Sub::Property::curry - Set arguments for function
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
